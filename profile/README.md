@@ -4,7 +4,7 @@
 
 **Provider-agnostic market infrastructure for digital assets and products.**
 
-[Platform](https://0xda-market.nilx.one) · [Core](https://github.com/0xda-market/0xda-market) · [Bot](https://github.com/0xda-market/0xda-market-bot) · [Organization Mind](https://github.com/0xda-market/mind)
+[Platform](https://0xda-market.nilx.one) · [Core](https://github.com/0xda-market/core) · [Telegram Bot](https://github.com/0xda-market/telegram-bot) · [Organization Mind](https://github.com/0xda-market/mind)
 
 </div>
 
@@ -49,8 +49,8 @@ The core remains independent of Telegram, databases, blockchains, exchanges, mar
 
 | Repository | Purpose |
 | --- | --- |
-| [`0xda-market`](https://github.com/0xda-market/0xda-market) | Provider-agnostic server kernel and market API. |
-| [`0xda-market-bot`](https://github.com/0xda-market/0xda-market-bot) | Telegram product and client interaction layer. |
+| [`core`](https://github.com/0xda-market/core) | Provider-agnostic server kernel and market API. |
+| [`telegram-bot`](https://github.com/0xda-market/telegram-bot) | Telegram product catalog and client interaction adapter. |
 | [`mind`](https://github.com/0xda-market/mind) | Versioned organizational identity, architecture, standards, and decisions. |
 | [`.github`](https://github.com/0xda-market/.github) | Organization profile and shared GitHub configuration. |
 
@@ -77,4 +77,4 @@ The core service is built primarily with **Ruby 3.3**, **Rack**, **Puma**, **Min
 
 ## License
 
-Repository-specific licensing is defined in each repository. The core `0xda-market` repository is available under the MIT License.
+Repository-specific licensing is defined in each repository. The [`core`](https://github.com/0xda-market/core) repository is available under the MIT License.
