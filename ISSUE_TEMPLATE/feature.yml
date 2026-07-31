@@ -1,0 +1,54 @@
+name: Feature request
+description: Propose a scoped capability or contract change for 0xda-market.
+title: "feature: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Describe the user, operational, or architectural problem to solve.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Describe the smallest correct change and its public behavior.
+    validations:
+      required: true
+
+  - type: textarea
+    id: contracts
+    attributes:
+      label: Contracts and compatibility
+      description: Identify affected APIs, schemas, commands, workflows, or compatibility guarantees.
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Note viable alternatives and why this proposal is preferable.
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: List observable conditions that define completion.
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Verification
+      options:
+        - label: I searched for an existing issue or pull request covering this proposal.
+          required: true
+        - label: This request does not include secrets, credentials, or private data.
+          required: true
