@@ -1,0 +1,43 @@
+name: Documentation repository links
+
+on:
+  pull_request:
+    paths:
+      - '**/*.md'
+      - '**/*.markdown'
+      - '**/*.yml'
+      - '**/*.yaml'
+      - '**/*.json'
+      - '**/*.toml'
+      - '**/*.txt'
+      - 'PROJECT_INSTRUCTIONS*'
+      - 'bin/check_documented_repositories'
+  push:
+    branches:
+      - master
+    paths:
+      - '**/*.md'
+      - '**/*.markdown'
+      - '**/*.yml'
+      - '**/*.yaml'
+      - '**/*.json'
+      - '**/*.toml'
+      - '**/*.txt'
+      - 'PROJECT_INSTRUCTIONS*'
+      - 'bin/check_documented_repositories'
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate checker syntax
+        run: bash -n bin/check_documented_repositories
+      - name: Validate documented repository links
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: bash bin/check_documented_repositories
