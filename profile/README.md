@@ -4,7 +4,7 @@
 
 **Provider-agnostic market infrastructure for digital products and assets.**
 
-[Platform](https://0xda-market.nilx.one) · [Core](https://github.com/0xda-market/core) · [WebApp Core](https://github.com/0xda-market/webapp-core) · [Telegram Bot](https://github.com/0xda-market/telegram-bot) · [Docs](https://github.com/0xda-market/docs)
+[Platform](https://0xda-market.nilx.one) · [Core](https://github.com/0xda-market/core) · [WebApp Core](https://github.com/0xda-market/webapp-core) · [Telegram Bot](https://github.com/0xda-market/telegram-bot)
 
 </div>
 
@@ -58,7 +58,7 @@ Telegram / future hosts
 | [`core`](https://github.com/0xda-market/core) | Provider-agnostic market kernel, APIs, pricing, FX, inventory, routing, and order lifecycle. |
 | [`webapp-core`](https://github.com/0xda-market/webapp-core) | Host-agnostic marketplace UI, role workspaces, localization, and browser interaction contracts. |
 | [`telegram-bot`](https://github.com/0xda-market/telegram-bot) | Telegram identity/transport adapter and Mini App host. |
-| [`docs`](https://github.com/0xda-market/docs) | Cross-repository product, domain, and architecture documentation. |
+| `docs` *(private)* | Cross-repository product, domain, and architecture documentation. |
 | [`mind`](https://github.com/0xda-market/mind) | Versioned vendor-independent context baseline used for structured organization/project context. |
 | [`.github`](https://github.com/0xda-market/.github) | Organization profile and shared GitHub configuration. |
 
