@@ -10,6 +10,18 @@
 
 ---
 
+## Organization
+
+`0xda-market` is a child organization in the **aiaiaiai tech. / 4xAI tech.** ecosystem.
+
+- **Parent organization:** [aiaiaiai tech.](https://github.com/aiaiaiaitech)
+- **Owner:** [0x0sky](https://github.com/0x0sky)
+- **Role:** digital commerce organization
+
+This relationship is part of the ecosystem's organizational and ownership model. GitHub itself represents `0xda-market` and `aiaiaiaitech` as peer organization namespaces and does not encode this parent-child relationship natively.
+
+---
+
 ## Overview
 
 0xda-market is an engineering-first marketplace that separates the buyer-facing commercial price from broker supply economics.
@@ -63,14 +75,6 @@ Telegram / future hosts
 | [`.github`](https://github.com/0xda-market/.github) | Organization profile and shared GitHub configuration. |
 
 The legacy `telegram-broker-bot` repository is archived; broker and administrator flows live inside the single Telegram bot and shared WebApp workspaces.
-
-## Localization
-
-The reusable WebApp currently has full UI bundles for English, Ukrainian, Russian, Spanish, and Brazilian Portuguese. Recognized European regional locales preserve region identity while falling back to English UI copy where a full bundle is not yet shipped. Product names remain core-owned localizations, and language does not hard-code buyer currency.
-
-## Technology
-
-The core and Telegram adapter are built primarily with **Ruby 3.3**, **Rack**, **Puma**, **Minitest**, and **PostgreSQL**. Shared browser behavior is maintained in `webapp-core`. Interfaces and infrastructure adapters remain replaceable around the domain core.
 
 ## Status
 
