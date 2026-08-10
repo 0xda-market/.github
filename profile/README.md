@@ -4,7 +4,7 @@
 
 **Provider-agnostic market infrastructure for digital products and assets.**
 
-[Platform](https://0xda-market.nilx.one) · [Core](https://github.com/0xda-market/core) · [WebApp Core](https://github.com/0xda-market/webapp-core) · [Telegram Bot](https://github.com/0xda-market/telegram-bot)
+[Platform](https://0xda-market.nilx.one) · [Core](https://github.com/0xda-market/core) · [WebApp Core](https://github.com/0xda-market/webapp-core) · Telegram Bot 🔐
 
 </div>
 
@@ -67,7 +67,7 @@ Telegram / future hosts
 
 `0xda-market` separates reusable foundations from concrete client-facing products. Repository role and GitHub visibility are independent: `core` and `webapp-core` are public foundations, while products built on top of them may remain private.
 
-See [Repository Roles](https://github.com/0xda-market/docs/blob/main/repository-roles.md) for the canonical classification model.
+See [Repository Roles](../docs/repository-roles.md) for the canonical classification model.
 
 ## Repositories
 
@@ -75,7 +75,7 @@ See [Repository Roles](https://github.com/0xda-market/docs/blob/main/repository-
 | --- | --- | --- | --- |
 | [`core`](https://github.com/0xda-market/core) | foundation | public | Provider-agnostic market kernel, APIs, pricing, FX, inventory, routing, and order lifecycle. |
 | [`webapp-core`](https://github.com/0xda-market/webapp-core) | foundation | public | Host-agnostic marketplace UI, role workspaces, localization, and browser interaction contracts. |
-| [`telegram-bot`](https://github.com/0xda-market/telegram-bot) | product | private 🔐 | Telegram identity/transport adapter, Mini App host, and current client-facing product. |
+| `telegram-bot` | product | private 🔐 | Telegram identity/transport adapter, Mini App host, and current client-facing product. |
 | `docs` | documentation | private 🔐 | Cross-repository product, domain, and architecture documentation. |
 | [`mind`](https://github.com/0xda-market/mind) | mind | public | Versioned organization/project context baseline, represented as `fork/mind` where provenance is shown. |
 | [`.github`](https://github.com/0xda-market/.github) | profile | public | Organization profile and shared GitHub configuration. |
