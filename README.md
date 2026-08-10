@@ -4,9 +4,13 @@ This repository owns the public GitHub organization profile and shared community
 
 ## Organization repositories
 
-- [`core`](https://github.com/0xda-market/core) contains the provider-agnostic market service.
-- [`telegram-bot`](https://github.com/0xda-market/telegram-bot) contains the Telegram client adapter.
+- [`core`](https://github.com/0xda-market/core) is the public provider-agnostic market foundation.
+- [`webapp-core`](https://github.com/0xda-market/webapp-core) is the public reusable WebApp foundation.
+- `telegram-bot` 🔐 is the private Telegram client product and Mini App host.
 - [`mind`](https://github.com/0xda-market/mind) contains versioned organizational context and engineering contracts.
+- `docs` 🔐 contains private cross-repository product, domain, and architecture documentation.
+
+See [Repository Roles](docs/repository-roles.md) for the canonical distinction between repository role and visibility.
 
 Repository-specific implementation and deployment documentation remains in each repository.
 
@@ -20,6 +24,8 @@ Repository-specific implementation and deployment documentation remains in each 
 ```text
 .github/
 ├── README.md
+├── docs/
+│   └── repository-roles.md
 ├── profile/
 │   └── README.md
 ├── ISSUE_TEMPLATE/
