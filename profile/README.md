@@ -1,5 +1,9 @@
 <div align="center">
 
+<a href="https://github.com/0xda-market/mind/blob/master/assets/visual/0xda-market/compact-emblem.svg">
+  <img src="https://raw.githubusercontent.com/0xda-market/mind/master/assets/visual/0xda-market/compact-emblem.svg" width="160" alt="0xda-market compact emblem">
+</a>
+
 # 0xda-market
 
 **Provider-agnostic market infrastructure for digital products and assets.**
@@ -12,13 +16,15 @@
 
 ## Organization
 
-`0xda-market` is a child organization in the **aiaiaiai tech. / 4xAI tech.** ecosystem.
+`0xda-market` is a child organization in the **aiaiaiai / 4xAI** ecosystem.
 
-- **Parent organization:** [aiaiaiai tech.](https://github.com/aiaiaiaitech)
+- **Parent organization:** [aiaiaiai](https://github.com/aiaiaiai-org)
 - **Owner:** [0x0sky](https://github.com/0x0sky)
 - **Role:** digital commerce organization
 
-This relationship is part of the ecosystem's organizational and ownership model. GitHub itself represents `0xda-market` and `aiaiaiaitech` as peer organization namespaces and does not encode this parent-child relationship natively.
+This relationship is part of the ecosystem's organizational and ownership model. GitHub itself represents `0xda-market` and `aiaiaiai-org` as peer organization namespaces and does not encode this parent-child relationship natively.
+
+The emblem shown above is projected from the canonical visual source in [`0xda-market/mind`](https://github.com/0xda-market/mind/tree/master/assets/visual/0xda-market); this profile is a presentation surface, not the identity authority.
 
 ---
 
@@ -91,3 +97,5 @@ Payment-provider settlement, broker payout accounting, refunds/disputes, and pro
 ## License
 
 Repository-specific licensing is defined in each repository. The [`core`](https://github.com/0xda-market/core) repository is available under the MIT License.
+
+<!-- © 2026 aiaiaiai · aiaiaiai.org -->
