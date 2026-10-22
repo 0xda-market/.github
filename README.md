@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="profile/assets/0xda-market.gif" alt="0xda-market animated logo" width="256">
+</p>
+
 # 0xda-market GitHub configuration
 
 This repository owns the public GitHub organization profile and shared community configuration for [`0xda-market`](https://github.com/0xda-market).

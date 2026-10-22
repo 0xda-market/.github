@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/emblem.svg" width="144" alt="0xda-market emblem">
+<img src="./assets/0xda-market.gif" width="256" alt="0xda-market animated logo">
 
 # 0xda-market
 
